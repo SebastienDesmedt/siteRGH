@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'c&l';
+    src: url('font/Champagne & Limousines.ttf');    
+}
+@font-face {
+    font-family: 'c&lB';
+    src: url('font/Champagne & Limousines Bold.ttf');
+}
+@font-face {
+    font-family: 'Philosopher-Regular';
+    src: url('font/Philosopher-Regular.ttf');
+}
+@font-face {
+    font-family: 'Philosopher-Bold';
+    src: url('font/Philosopher-Bold.ttf');
+}
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	padding-top: 160px;
+}
+p, li, a, ul>h4{
+	font-size: 18px;
+	font-family: 'Philosopher-Regular', verdana, arial;
+}
+header{
+	background-color: #482614;
+	height: 160px;
+	width: 100%;	
+}
+img.logo{
+	margin-left: 20px;
+	height: 150px;
+}
+.coordonnees{	
+	float:right;
+	display:block;
+	width:200px;
+	height:100px;	
+}
+.coordonnees h2{
+	font-size: 24px;
+	font-family: 'c&l', verdana, arial;	
+	line-height: 0px;
+	color: #FF810E ;
+}
+.coordonnees p{
+	font-size: 20px;
+	font-family: 'c&l', verdana, arial; 
+	color: #81A913;
+}
+section{
+	background-image:url('img/bg.jpg');
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    display:block;
+    width:auto;
+    margin:0 15% 0 15%;    
+}
+section h3{
+	text-align: center;
+	padding-bottom: 10px;	
+	font-family: 'Philosopher-Bold', verdana, arial;
+}
+section{
+	padding-bottom: 5px;
+}
+.menuLateralGauche{
+	float:left;
+	display:block;
+	width: 220px;
+	padding-top: 160px;
+	font-color: #482614;
+	}
+.menuLateralDroite{
+	float:right;
+	display:block;
+	width: 220px;
+	/*padding-top: 3%;*/
+	font-color: #482614;
+	}
+.menuLateralGauche a{	
+	color: #482614;
+	}
+.fondTransparent{
+	background:rgba(255,255,255,0.9);
+	height: 800px;
+}
+.ImgMenu{
+	padding:20% 0 0 20%; 
+}
+.FondRenovationImmobiliereRGH{
+	background:rgb(143,213,16);	
+	height: 170px;
+	margin:3% 0;
+}
+.FondRenovationImmobiliereRGH li, .FondRenovationImmobiliereRGH2 li{
+	list-style-type: none;
+}
+.FondRenovationImmobiliereRGH li>span, .FondRenovationImmobiliereRGH2 li>span{
+	padding-right: 15px;
+}
+.FondRenovationImmobiliereRGH2{
+	background:rgb(143,213,16);	
+	height: 450px;	
+}
+.presentationRGH{	
+    margin: 2% 0 2% 0;
+    display: block;
+}
+footer{
+	background-color: #482614;
+	height: 300px;
+	width: 100%;	
+}
+footer p{
+	font-size: 20px;
+	font-family: 'c&lB', verdana, arial;	
+	color: #FF810E ;
+}
